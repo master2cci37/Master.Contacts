@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"[]>
+<book lang="fr">
+  <title>Documentation bibliothèque Master.Classes .NET</title>
+  <titleabbrev />
+  <bookinfo>
+    <legalnotice>
+      <para>La bibliothèque Master.Classes .NETe, 
+		est une application créée lors de la formation Master 2 CCI de l'Université François RABELAIS de Tours, 
+		en janvier-mars 2010  par les étudiants sous la direction du chargé d'enseignement : Jean-François PACORY.</para>
+      <para>
+		Copyright © 2010 Master 2 CCI</para>
+      <para>
+		Ce document est amené à s'étoffer avec le temps.  
+		Toute correction sera la bienvenue, à l'adresse des auteurs.
+		</para>
+      <para>
+		Permission vous est donnée de copier, distribuer ce document.</para>
+    </legalnotice>
+    <title>Documentation bibliothèque Master.Classes .NET</title>
+    <authorgroup>
+      <author>
+        <firstname>Jean-François</firstname>
+        <othername />
+        <surname>PACORY</surname>
+        <affiliation>
+          <orgname>Master 2 CCI, Université François RABELAIS de Tours (37), France.</orgname>
+          <address format="linespecific">
+            <email>jf.pacory@laposte.net</email>
+          </address>
+        </affiliation>
+      </author>
+    </authorgroup>
+    <releaseinfo>Version 1.00.00
+    <date>02/01/2010</date><para><ulink url="http://desscci.univ-tours.fr/">
+http://desscci.univ-tours.fr/
+</ulink></para></releaseinfo>
+    <pubdate>02/01/2010</pubdate>
+    <revhistory>
+      <revision>
+        <revnumber>Version 1.00.00</revnumber>
+        <date>02/01/2010</date>
+        <authorinitials>JFP</authorinitials>
+        <revremark>Version initale</revremark>
+      </revision>
+    </revhistory>
+    <abstract>
+      <para>
+        <application moreinfo="none">La bibliothèque Master.Classes .NET</application> 
+		est une application créée lors de la formation Master 2 CCI de l'Université François RABELAIS de Tours, en janvier-mars 2010.</para>
+    </abstract>
+    <keywordset>
+      <keyword>Bibliothèque</keyword>
+      <keyword>Master.Classes</keyword>
+      <keyword>.NET</keyword>
+      <keyword>Master 2 CCI</keyword>
+      <keyword>Université François RABELAIS</keyword>
+      <keyword>Technologies Microsoft</keyword>
+      <keyword>C#</keyword>
+    </keywordset>
+    <copyright>
+      <year>2010</year>
+      <holder>JF. PACORY</holder>
+    </copyright>
+  </bookinfo>
+  <informaltable frame="all">
+    <tgroup cols="3">
+      <tbody>
+        <row>
+          <entry>
+            <para>Master 2 CCI</para>
+          </entry>
+          <entry>
+            <para>Bibliothèque Master.Classes</para>
+          </entry>
+          <entry>
+            <para>
+              <inlinegraphic fileref="Figures/images5.gif" width="0.777cm" depth="0.777cm" />
+            </para>
+          </entry>
+        </row>
+        <row>
+          <entry>
+            <para />
+          </entry>
+          <entry>
+            <para>Documentation</para>
+          </entry>
+          <entry>
+            <para />
+          </entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+  <para />
+  <para />
+  <para />
+  <para />
+  <para />
+  <para>Documentation Master.Classes v1.0</para>
+  <para />
+  <para />
+  <para />
+  <para />
+  <para />
+  <para />
+  <para>DIFFUSION</para>
+  <para />
+  <para>Destinataires :</para>
+  <para />
+  <para />
+  <para>Gestion des versions en "annule et remplace" :</para>
+  <para />
+  <informaltable frame="all">
+    <tgroup cols="6">
+      <tbody>
+        <row>
+          <entry>
+            <para>Date</para>
+          </entry>
+          <entry>
+            <para>Version</para>
+          </entry>
+          <entry>
+            <para>Auteur</para>
+          </entry>
+          <entry>
+            <para>Motifs de révision</para>
+          </entry>
+          <entry>
+            <para>Parties modifiées</para>
+          </entry>
+          <entry>
+            <para>Archivé</para>
+          </entry>
+        </row>
+        <row>
+          <entry>
+            <para>02/01/2010</para>
+          </entry>
+          <entry>
+            <para>1.0</para>
+          </entry>
+          <entry>
+            <para>Jean-François PACORY </para>
+          </entry>
+          <entry>
+            <para>Création</para>
+          </entry>
+          <entry>
+            <para />
+          </entry>
+          <entry>
+            <para />
+          </entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+  <para />
+  <para />
+  <para>Table des matières</para>
+  <para />
+  <para />
+  <para />
+  <para />
+  <para />
+  <sect1>
+    <title>
+      <anchor id="_Ref485718249" />Préambule</title>
+    <para />
+    <para>Le présent document présente xxxxxxx.</para>
+    <para />
+    <para>xxxxx. </para>
+    <para />
+  </sect1>
+  <sect1>
+    <title>Fichiers du programme</title>
+    <para />
+    <para>MasterClasses.dll        le fichier exécutable de l’application</para>
+    <para> </para>
+    <para>MasterClassesV1.zip        Codes source de l’application</para>
+    <para />
+    <para />
+    <para>La plateforme nécessaire est la .Net 3.5.</para>
+    <para> </para>
+    <para />
+    <para>En cas de rectification des sources, la recompilation peut se faire en ligne de commandes dans le répertoire du projet ainsi :</para>
+    <para />
+    <para>BUILDRD.CMD</para>
+    <para />
+  </sect1>
+  <sect1>
+    <title>Code source</title>
+    <para />
+    <para>Le code source se trouve dans le fichier MasterClasses-1.0.0.0.zip.  La solution est structurée ainsi :</para>
+    <para />
+    <para>Une variable NUNIT en version Debug et Release permet de basculer de l'outil de test Visual Studio, à Nunit.  </para>
+    <para />
+    <para>xxx.</para>
+    <para />
+    <para>Dossiers : </para>
+    <para>Figure 1 à insérer (dossier trunk)</para>
+    <para />
+    <para>xxxx : xxx</para>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <para />
+    <para>xxxx : xxx</para>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <para>xxxx : xxx</para>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <para>xxxx : xxx</para>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <para>xxxx : xxx</para>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <para>xxxx : xxx</para>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+  </sect1>
+  <sect1>
+    <title>Utilisation</title>
+    <para>xxxxxx</para>
+    <para> </para>
+  </sect1>
+  <sect1>
+    <title>Mise en place dans une application</title>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+  </sect1>
+  <sect1>
+    <title>Améliorations possibles</title>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <orderedlist inheritnum="ignore" continuation="restarts">
+      <listitem>
+        <para>xxxxxx</para>
+      </listitem>
+    </orderedlist>
+    <para />
+    <para />
+    <para> </para>
+  </sect1>
+  <informaltable frame="all">
+    <tgroup cols="3">
+      <colspec colnum="1" colname="c1" />
+      <colspec colnum="2" colname="c2" />
+      <colspec colnum="3" colname="c3" />
+      <tbody>
+        <row>
+          <entry>
+            <para>Réf. : MasterClasses.docbook</para>
+          </entry>
+          <entry>
+            <para>Auteur : JF. PACORY</para>
+          </entry>
+          <entry>
+            <para>Version : 1.0</para>
+          </entry>
+          <entry>
+            <para>Date : 02/01/2010</para>
+          </entry>
+          <entry>
+            <para>Page : 1 / n</para>
+          </entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+  <para />
+</book>

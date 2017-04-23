@@ -1,0 +1,1118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Master.Classes</name>
+    </assembly>
+    <members>
+        <member name="T:Master.Classes.Types.Types">
+            <summary>
+            Classe de gestion de Types.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Types.Types.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Types.Types"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Types.Types.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Fichiers.Fichiers">
+            <summary>
+            Classe de gestion Fichiers..
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Fichiers.Fichiers.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Fichiers.Fichiers"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Fichiers.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Donnees.SqlServer">
+            <summary>
+            Classe de gestion de Donnees.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Donnees.SqlServer.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Donnees.SqlServer"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.SqlServer.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Xml.DocumentXml">
+            <summary>
+            Classe de gestion des Documents Xml.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Xml.DocumentXml.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Xml.DocumentXml"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Xml.DocumentXml.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Reseau.Internet">
+            <summary>
+            Classe de gestion de l'internet.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Reseau.Internet.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Reseau.Internet"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Reseau.Internet.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Donnees.MySql">
+            <summary>
+            Classe de gestion de Données.
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.MySql.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Donnees.MySql"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.MySql.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Master.Classes.Donnees.MySql"/> class.
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.MySql.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Divers.Divers">
+            <summary>
+            Classe de traitements divers.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Divers.Divers.AjouterZero(System.Int32)">
+            <summary>
+            Ajouters the zero.
+            </summary>
+            <param name="nombre">The nombre.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Divers.Divers.CouleurLongToHtml(System.Int32)">
+            <summary>
+            Couleurs the long to HTML.
+            </summary>
+            <param name="CouleurLong">The couleur long.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Divers.Divers.CouleurHtmlToLong(System.String)">
+            <summary>
+            Couleurs the HTML to long.
+            </summary>
+            <param name="CouleurHtml">The couleur HTML.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Divers.Divers.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Divers.Divers"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Divers.Divers.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Securite.Securite">
+            <summary>
+            Classe de gestion de la Securite.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Securite.Securite.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Securite.Securite"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Securite.Securite.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Fichiers.Journal">
+            <summary>
+            Classe de journalisation de traitements et exceptions.
+            </summary>	
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+            <remarks>
+            Code à placer dans app.config :
+             <system.diagnostics>
+               <trace autoflush="true" indentsize="4">
+                 <listeners>
+                   <add name="Journal" type="System.Diagnostics.TextWriterTraceListener"
+                        initializeData="Master.GestTaches.log" />
+                   <remove name="Default" />
+                 </listeners>
+               </trace>
+             </system.diagnostics>
+             Code à placer dans les membres privés des classes à journaliser :
+             Journal journal = new Journal(typeof(nomDeLaClasse));
+             Version Log4Net : 
+              private static readonly ILog journal =  LogManager.GetLogger(typeof(nomDeLaClasse));
+            </remarks>
+        </member>
+        <member name="F:Master.Classes.Fichiers.Journal.classe">
+            <summary>
+            Nom de la classe journalisée.
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Journal.#ctor(System.Type)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Fichiers.Journal"/> class.
+            </summary>
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Journal.Debug(System.String)">
+            <summary>
+            Debug sur le message spécifié.
+            </summary>
+            <param name="message">Le message.</param>
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Journal.Info(System.String)">
+            <summary>
+            Informations sur le message spécifié.
+            </summary>
+            <param name="message">Le message.</param>
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Journal.Warn(System.String)">
+            <summary>
+            Warnings sur le message spécifié.
+            </summary>
+            <param name="message">Le message.</param>
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Journal.Error(System.String,System.Exception)">
+            <summary>
+            Erreurs sur le message spécifié.
+            </summary>
+            <param name="message">Le message.</param>
+            <param name="exception">Une exception.</param>
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Journal.Fatal(System.String,System.Exception)">
+            <summary>
+            Fatal sur le message spécifié.
+            </summary>
+            <param name="message">Le message.</param>
+            <param name="exception">Une exception.</param>
+            <Auteur>JFP</Auteur>
+            <Creation>22/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="T:Master.Classes.Reseau.Reseau">
+            <summary>
+            Classe de gestion des Reseaux.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Reseau.Reseau.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Reseau.Reseau"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Reseau.Reseau.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Nombre.Nombre">
+            <summary>
+            Classe de gestion Nombre..
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Nombre.Nombre.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Nombre.Nombre"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Nombre.Nombre.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Linq.Linq">
+            <summary>
+            Classe de gestion de requêtes Linq.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Linq.Linq.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Linq.Linq"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Linq.Linq.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Xml.Xml">
+            <summary>
+            Classe de gestion de XML.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Xml.Xml.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="!:XML"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Xml.Xml.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.ExceptionsRegulieres.ExceptionsRegulieres">
+            <summary>
+            Classe de gestion des ExceptionsRegulieres.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.ExceptionsRegulieres.ExceptionsRegulieres.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.ExceptionsRegulieres.ExceptionsRegulieres"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.ExceptionsRegulieres.ExceptionsRegulieres.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Divers.Profilage">
+            <summary>
+            Classe de gestion Profilage..
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Divers.Profilage.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Divers.Profilage"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Divers.Profilage.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Nombre.Mathematiques">
+            <summary>
+            Classe d'éléments Mathematiques.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Nombre.Mathematiques.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Nombre.Mathematiques"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Nombre.Mathematiques.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Donnees.SqlLite">
+            <summary>
+            Classe de gestion de Donnees.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Donnees.SqlLite.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Donnees.SqlLite"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.SqlLite.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Systeme.Registre">
+            <summary>
+            Classe de gestion de la base de Registres.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Systeme.Registre.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Systeme.Registre"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Registre.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Editions.Editions">
+            <summary>
+            Classe de gestion des Editions.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Editions.Editions.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Editions.Editions"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Editions.Editions.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Constantes.Constantes">
+            <summary>
+            Classe de gestion Constantes..
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Constantes.Constantes.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Constantes.Constantes"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Constantes.Constantes.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Chaine.Chaine">
+            <summary>
+            Classe de gestion des Chaines.
+            </summary>	
+        </member>
+        <member name="F:Master.Classes.Chaine.Chaine.tab_Bin">
+            <summary>
+            Liste d'entiers.
+            </summary>
+        </member>
+        <member name="F:Master.Classes.Chaine.Chaine.tab_Dec">
+            <summary>
+            Liste d'entiers.
+            </summary>
+        </member>
+        <member name="F:Master.Classes.Chaine.Chaine.quatre_Bits">
+            <summary>
+            Liste d'entiers.
+            </summary>
+        </member>
+        <member name="F:Master.Classes.Chaine.Chaine.tab_Hex">
+            <summary>
+            Liste d'entiers.
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.BinToHex(System.String)">
+            <summary>
+            Bins to hex.
+            </summary>
+            <param name="binaire">The binaire.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.HexToBin(System.String)">
+            <summary>
+            Hexes to bin.
+            </summary>
+            <param name="hexadecimal">The hexadecimal.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.InverserString(System.String)">
+            <summary>
+            Inversers the string.
+            </summary>
+            <param name="chaine">The chaine.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.ExtensionURL(System.String)">
+            <summary>
+            Extensions the URL.
+            </summary>
+            <param name="url">The URL.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.RetourneChaineRaccourcie(System.String)">
+            <summary>
+            Raccourcir une chaine de plus de 8 caractères en
+            placant entre les 4 caractères de début et de fin,
+            la chaine "[...]".
+            </summary>
+            <param name="chaine">Chaine à raccourcir.</param>
+            <returns>Chaine raccourcie.</returns>
+            <Auteur>Coral</Auteur>
+            <Creation>17/02/2010</Creation>
+            <Maj></Maj>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.domaineURL(System.String)">
+            <summary>
+            Domaines the URL.
+            </summary>
+            <param name="url">The URL.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.sousDomaineURL(System.String)">
+            <summary>
+            Souses the domaine URL.
+            </summary>
+            <param name="url">The URL.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.Pluriel(System.String)">
+            <summary>
+            procédure qui met une phrase au pluriel. La phrase est donnée en paramètre.C'est un
+            début d'algorythme qui demandera surement plusieurs mois pour une grammaire complète de
+            la langue française.
+            </summary>
+            <param name="phrase">The phrase.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.NombreSousChaines(System.String)">
+            <summary>
+            Compter le nombre de sous-chaîne.
+            </summary>
+            <param name="phrase">The phrase.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.OccurencesChaine(System.String,System.String)">
+            <summary>
+            Occurenceses the chaine.
+            </summary>
+            <param name="chaine1">The chaine1.</param>
+            <param name="chaine2">The chaine2.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.EffacerDernier(System.String)">
+            <summary>
+            Effacer le dernier caractère de la chaine.
+            </summary>
+            <param name="chaine">La chaine.</param>
+            <returns>La chaine privé de son dernier caractère</returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.EffacerDernier(System.String@)">
+            <summary>
+            Effacer le dernier caractère de la chaine passée par référence.
+            </summary>
+            <param name="chaine">The chaine.</param>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.ExclureCaracteres(System.String,System.Char[])">
+            <summary>
+            Exclure les caracteres contenu dans le tableau passé dans le second paramètre, de la chaine passée en paramètre.
+            </summary>
+            <param name="chaine">chaine d'origine.</param>
+            <param name="carac">Tableau des caractères à exclure de la chaine.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.SupprimerDoublons(System.String[])">
+            <summary>
+            Supprime les doublons d'un tableau de strings.
+            </summary>
+            <param name="Tabl">Tableau de string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Chaine.Chaine"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Chaine.Chaine.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Reseau.Messagerie">
+            <summary>
+            Classe de gestion de la Messagerie.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Reseau.Messagerie.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Reseau.Messagerie"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Reseau.Messagerie.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Fichiers.Compression">
+            <summary>
+            Classe de gestion des Compressions de fichiers.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Fichiers.Compression.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Fichiers.Compression"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Compression.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Graphique.Graphique">
+            <summary>
+            Classe de gestion des Graphiques.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Graphique.Graphique.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Graphique.Graphique"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Graphique.Graphique.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Fichiers.FichierIni">
+            <summary>
+            Classe de gestion des FichierIni.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierIni.FusionnerFichiers(System.String,System.String)">
+            <summary>
+            Fusionne 2 fichiers INI en le stockant dans le 1er
+            </summary>
+            <param name="chemin1">Chemin du 1er fichier INI qui serra aussi la sortie</param>
+            <param name="chemin2">Chemin du 2eme fichier INI</param>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierIni.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Fichiers.FichierIni"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierIni.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Systeme.Systeme">
+            <summary>
+            Classe de gestion de Systeme.
+            </summary>	
+        </member>
+        <member name="F:Master.Classes.Systeme.Systeme.TASKBAR_SHOW">
+            <summary>
+             Valeur correspondant à afficher la barre des taches windows
+            </summary>
+        </member>
+        <member name="F:Master.Classes.Systeme.Systeme.TASKBAR_HIDE">
+            <summary>
+             Valeur correspondant à cacher la barre des taches windows
+            </summary>
+        </member>
+        <member name="F:Master.Classes.Systeme.Systeme.STD_OUTPUT_HANDLE">
+            <summary>
+            Champs utils pour l'ouverture d'une nouvelle console
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.ExitWindowsEx(System.UInt32,System.UInt32)">
+            <summary>
+             Utilisé dans le code pour arreter et redmarrer l'ordinateur
+            </summary>
+            <param name="uFlags">parametres indiquand le type d'action (0x02 pour redemarrer, 0x01 pour arreter)</param>
+            <param name="dwReason"></param>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.FindWindows(System.String,System.String)">
+            <summary>
+             Utilisé pour gerer la barre des tâches Windows
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.SetWindowPos(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+             Utilisé pour gerer la barre des tâches Windows
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.LoadKeyboardLayout(System.String,System.UInt32)">
+            <summary>
+            Chargement des informations clavier
+            </summary>
+            <param name="pwszKLID">identifiant local du clavier</param>
+            <param name="Flags">options d'identifiant du clavier</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.GetKeyboardLayoutName(System.Text.StringBuilder)">
+            <summary>
+            Retrouve le nom de l'arrangement du clavier a partir du code
+            </summary>
+            <param name="pwszKLID">Code clavier</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.GetStdHandle(System.Int32)">
+            <summary>
+            2 importations necessaires pour l'ouverture de console
+            </summary>
+            <param name="nStdHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.ArretPc">
+            <summary>
+             Methode permettant l'arret du pc
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.RedemarrerPc">
+            <summary>
+             Methodes permettant le redemarrage du pc
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.ArretRedemarre(System.String)">
+            <summary>
+            Methode de redemarrage ou arret
+            </summary>
+            <param name="valeur">parametre d'arret("8") ou redemarrage("2")</param>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.AfficherVariableEnv">
+            <summary>
+             Affichage des variables d'environement dans une console
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.AfficherBarreDesTaches">
+            <summary>
+             Affichage de la barre des tâches
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.CacherBarreDesTaches">
+            <summary>
+             Cacher la barre des tâches
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.ChangerLangueClavier">
+            <summary>
+            Methode qui intervertit la langue entre francais et anglais
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Systeme.Systeme"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Systeme.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Systeme.Asynchrone">
+            <summary>
+            Classe de gestion Asynchrone.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Systeme.Asynchrone.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Systeme.Asynchrone"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.Asynchrone.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.DateHeure.DateHeure">
+            <summary>
+            Classe de gestion des Dates et Heures.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.AujourdHui">
+            <summary>
+            Aujourds the hui.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.DateDuJour">
+            <summary>
+            Dates the du jour.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.PeriodeJoursOuvres(System.DateTime,System.DateTime)">
+            <summary>
+            Periodes the jours ouvrés.
+            </summary>
+            <param name="debutP">The debut P.</param>
+            <param name="finP">The fin P.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.RetournePositionJourDeLaSemaine(System.DateTime)">
+            <summary>
+            Gets the position jour de la semaine.
+            </summary>
+            <param name="ToDate">To date.</param>
+            <returns></returns> 
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.NumeroSemaineJulien(System.DateTime)">
+            <summary>
+            Numeroes the semaine julien.
+            </summary>
+            <param name="ParamMaDate">The param ma date.</param>
+            <returns>Valeur entière du numéro de la semaine (calendrier Julien).</returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.NumeroSemaineGregorien(System.DateTime)">
+            <summary>
+            Numeroes the semaine gregorien.
+            </summary>
+            <param name="MaDate">The ma date.</param>
+            <returns>Valeur entière du numéro de la semaine (calendrier Grégorien).</returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.RetournePremierJourSemaine(System.Int32,System.Int32)">
+            <summary>
+            Gets the premier jour semaine.
+            </summary>
+            <param name="numeroSemaine">The numero semaine.</param>
+            <param name="annee">The annee.</param>
+            <returns>Premier jour de la semaine.</returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.ConversionDureeDate(System.DateTime,System.DateTime)">
+            <summary>
+            Conversions the duree date.
+            </summary>
+            <param name="Date1">The date1.</param>
+            <param name="Date2">The date2.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.DateGmt">
+            <summary>
+            Dates the GMT.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.DateHeure.DateHeure"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.DateHeure.DateHeure.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Securite.Cryptage">
+            <summary>
+            Classe de gestion du  Cryptage..
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Securite.Cryptage.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Securite.Cryptage"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Securite.Cryptage.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Donnees.Donnees">
+            <summary>
+            Classe de gestion des données.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Donnees.Donnees.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Donnees.Donnees"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.Donnees.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Divers.CSharp">
+            <summary>
+            Classe de traitement du langage CSharp.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Divers.CSharp.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Divers.CSharp"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Divers.CSharp.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Multimedia.Multimedia">
+            <summary>
+            Classe de gestion Multimedia.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Multimedia.Multimedia.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Multimedia.Multimedia"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Multimedia.Multimedia.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Fichiers.Configuration">
+            <summary>
+            Classe de gestion Configuration..
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Fichiers.Configuration.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Fichiers.Configuration"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Fichiers.Configuration.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Exceptions.Exceptions">
+            <summary>
+            Classe de gestion de Exceptions.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Exceptions.Exceptions.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Exceptions.Exceptions"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Exceptions.Exceptions.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Donnees.Sql">
+            <summary>
+            Classe de gestion de Donnees.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Donnees.Sql.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Donnees.Sql"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Donnees.Sql.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Divers.Comptabilite">
+            <summary>
+            Classe de gestion de normes comptables.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Divers.Comptabilite.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Divers.Comptabilite"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Divers.Comptabilite.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Systeme.API">
+            <summary>
+            Classe d'accès API.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Systeme.API.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Systeme.API"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Systeme.API.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Nombre.Algorithme">
+            <summary>
+            Classe de gestion d'algorithmes courants.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Nombre.Algorithme.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Nombre.Algorithme"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Nombre.Algorithme.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+        <member name="T:Master.Classes.Fichiers.FichierTxt">
+            <summary>
+            Classe de gestion de FichierTxt.
+            </summary>	
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierTxt.NombreLigne(System.String)">
+            <summary>
+            Methode qui retourne le nombre de ligne d'un fichier txt
+            </summary>
+            <param name="chemin">Chemin du fichier txt</param>
+            <returns>Nombre de ligne dans le fichier</returns>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierTxt.LectureFichier(System.String)">
+            <summary>
+            Lit un fichier txt et stocke le texte dans une List
+            </summary>
+            <param name="chemin">Chemin du fichier txt</param>
+            <returns>List contenant le txt du fichier</returns>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierTxt.difference(System.String,System.String)">
+            <summary>
+            Methode qui trouve les differences entre 2 fichiers et qui stocke ces differences 
+            dans une List contenant les 2 lignes contenant des differences
+            </summary>
+            <param name="chemin1">chemin du 1er fichier</param>
+            <param name="chemin2">chemin du 2nd fichier</param>
+            <returns>List de List de string (la 2eme liste contient 2 string correspondant à chaque fichier)</returns>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierTxt.SupprimerLigne(System.Int32[],System.String)">
+            <summary>
+            Methode de suppression de ligne d'un fichier texte
+            </summary>
+            <param name="index">tableau d'index des lignes à supprimer</param>
+            <param name="chemin">chemin du fichier à traiter</param>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierTxt.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Master.Classes.Fichiers.FichierTxt"/>.	
+            </summary>
+        </member>
+        <member name="M:Master.Classes.Fichiers.FichierTxt.ToString">
+            <summary>
+            Retourne une valeur <see cref="T:System.String"/> représentant cette instance.
+            </summary>
+            <returns>
+            Valeur <see cref="T:System.String"/> représentant cette instance.
+            </returns> 
+        </member>
+    </members>
+</doc>
