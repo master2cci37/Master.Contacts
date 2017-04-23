@@ -1,0 +1,31 @@
+.LOG
+
+JOURNAL DES MODIFICATIONS
+----------------------------------------------------
+
+Ce document résume les changements entre les différentes versions de Master.Classes. Notez qu'il peut ne pas être exhaustif, certaines modifications mineures ne sont pas nécessairement répertoriées.
+
+Le numéro de version est composé de 4 chiffres séparés par des points où le premier chiffre représente la version majeure, le 2ème numéro, la version mineure et les autres numéros, la version de construction. 
+
+[Version 0.0.0.0 (2010-mm-jj)]
+
+Les points suivants ont été corrigés et/ou ajoutés :
+
++ Ajouts ...
+- Corrections ...
+# Améliorations ...
+
+[Version 0.0.0.0 (2010-mm-jj)]
+
+Il s'agit d'une version de maintenance. Les points suivants ont été corrigés et/ou ajoutés :
+
++ Ajouts ...
+- Corrections ...
+# Améliorations ...
+
+[Version 0.0.0.0 (2010-mm-jj)]
+
+. Version initiale
+
+Dernière modification : 
+ 

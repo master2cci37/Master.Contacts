@@ -1,0 +1,14 @@
+.LOG
+
+LISTE DES CHANGEMENTS
+----------------------------------------------------
+
+Ce document liste les points rectifiés dans les anciennes versions de Master.Contacts.
+
+[Version 0.0.0.0 (2010-mm-jj)]
+
++ Ajouts ...
+- Corrections ...
+# Améliorations ...
+
+Dernière modification :  

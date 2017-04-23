@@ -1,0 +1,14 @@
+.LOG
+
+LISTE DES SOUHAITS / ROADMAP
+----------------------------------------------------
+
+Ce document liste les points à rectifier dans les prochaines versions de Master.Contacts.
+
+[Version 0.0.0.0 (2010-mm-jj)]
+
++ Ajouts ...
+- Corrections ...
+# Améliorations ...
+
+Dernière modification :  

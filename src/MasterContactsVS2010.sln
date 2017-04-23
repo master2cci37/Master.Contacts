@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterClasses", "MasterClasses\MasterClasses.csproj", "{9865073B-A64B-4620-825D-671E274A1BA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B474BAE7-94C1-441C-BC7E-43F26DA3D876}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MasterContacts.vsmdi = MasterContacts.vsmdi
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterContacts", "MasterContacts\MasterContacts.csproj", "{C1594486-15BD-4465-AA35-743051BDC56A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterContactsMetier", "MasterContactsMetier\MasterContactsMetier.csproj", "{F6943E4B-DF2D-4245-B08D-25BEDE174E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterContactsDonnees", "MasterContactsDonnees\MasterContactsDonnees.csproj", "{9433198A-CA95-4F52-98B3-A3263E9599A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterContactsTests", "MasterContactsTests\MasterContactsTests.csproj", "{208042CE-75A3-4C2E-A829-12CADDB4767B}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MasterContacts.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9865073B-A64B-4620-825D-671E274A1BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9865073B-A64B-4620-825D-671E274A1BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9865073B-A64B-4620-825D-671E274A1BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9865073B-A64B-4620-825D-671E274A1BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1594486-15BD-4465-AA35-743051BDC56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1594486-15BD-4465-AA35-743051BDC56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1594486-15BD-4465-AA35-743051BDC56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1594486-15BD-4465-AA35-743051BDC56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6943E4B-DF2D-4245-B08D-25BEDE174E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6943E4B-DF2D-4245-B08D-25BEDE174E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6943E4B-DF2D-4245-B08D-25BEDE174E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6943E4B-DF2D-4245-B08D-25BEDE174E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9433198A-CA95-4F52-98B3-A3263E9599A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9433198A-CA95-4F52-98B3-A3263E9599A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9433198A-CA95-4F52-98B3-A3263E9599A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9433198A-CA95-4F52-98B3-A3263E9599A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208042CE-75A3-4C2E-A829-12CADDB4767B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208042CE-75A3-4C2E-A829-12CADDB4767B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208042CE-75A3-4C2E-A829-12CADDB4767B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208042CE-75A3-4C2E-A829-12CADDB4767B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

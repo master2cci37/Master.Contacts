@@ -1,0 +1,138 @@
+﻿<#@ template language="C#" hostspecific="True" #>
+<#@ output extension="cs" #>
+<#@ import namespace="System.Globalization" #><#
+	string Auteurs = "codeEtudiant";
+	string Application = "Master.Classes";	
+	string Dossier = "dossier";
+	string Classe = "classe";
+	string NameSpace = string.Concat("Master.Classes.", Dossier); 
+	string Description = "Classe de gestion " + Classe +".";
+	string Version="0.01";
+	string DateVersion= "99/99/2010";
+	string Licence = "License LGPL";
+	string Lien = "http://masterclasses.codeplex.com";
+	string LienLicenceLGPL = "http://commonlibrarynet.codeplex.com/license";
+	string CopyLeft ="CopyRight (C) 2010 Master 2 CCI Tours <master2cci@laposte.net>";	 
+	string DateGeneration = DateTime.Now.ToString("d", CultureInfo.CreateSpecificCulture("fr-FR"));
+	bool EstClassePartielle = false; //true;
+	string Partielle = string.Empty;
+	
+	if( EstClassePartielle ) 
+	{
+		Partielle = "partial ";
+	}
+	
+	string[] references = new string[] 
+	{
+		"System", 
+		"System.Collections.Generic",
+		"System.Diagnostics",
+		"System.Globalization",
+		"System.IO",		
+		"System.Linq",
+		"System.Text"		
+	}; 
+
+	 string[] regions = new string[]
+	 {
+	    // "Attributs, Constantes, Propriétés",   
+        "Attributs",  
+        "Constantes",   
+        "Propriétés",   		
+        // "Chargement",   
+        // "Gestionnaires d'événements",           
+        "Méthodes publiques",         
+        "Méthodes protégées",
+		"Méthodes privées"
+	 };
+#>// * ==========================================================================
+// Application : <#= Application #> 
+// Classe : <#= Classe #> 
+// Fonctions : <#= Description #> 
+// License:  <#= Licence #> 
+// Version :  <#= Version #> du <#= DateVersion #> 
+// Lien : <#= Lien #> 
+// Auteur(s) : <#= Auteurs #>
+// CopyLeft  :  <#= CopyLeft #>
+// Création : <#= string.Format("{0:dd/MM/yyyy}", DateTime.Now) #>
+// Etat : en cours
+// Controle du :
+// Licence : 
+// L'autorisation est accordée, à titre gratuit, à toute personne d'obtenir une copie 
+// de ce logiciel et de ses fichiers de documentation, pour pouvoir utiliser 
+// ce logiciel sans restriction, y compris, sans s'y limiter, les droits 
+// d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, 
+// de sous-licence, et / ou de vendre les copies du Logiciel, et d'autoriser les 
+// personnes auxquelles le logiciel est livré de le faire, sous réserve des 
+// conditions suivantes:
+// 
+// Les avis de droit d'auteur et la présente autorisation doivent être inclus dans 
+// toutes les copies ou parties substantielles du Logiciel.
+// 
+// LE LOGICIEL EST FOURNI "TEL QUEL", SANS GARANTIE DE QUELQUE NATURE QUE CE SOIT, 
+// EXPLICITE OU  IMPLICITE, Y COMPRIS, MAIS SANS Y LIMITER LES GARANTIES DE QUALITE 
+// MARCHANDE, D'ADEQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN 
+// AUCUN CAS LES AUTEURS OU LES TITULAIRES DE DROITS D'AUTEUR POURRONT ETRE TENUE 
+// RESPONSABLES DE TOUT DOMMAGE,  RÉCLAMATION OU AUTRE  RESPONSABILITE, DANS LE 
+// CADRE D'UNE ACTION DE CONTRAT, UN DELIT OU AUTRE, DÉCOULANT DE, OU EN RELATION 
+// AVEC LE LOGICIEL OU DE SON UTILISATION OU AUTRES EN RELATION AVEC LE LOGICIEL.
+// Licence LGPL : <#= LienLicenceLGPL #> 
+// *---------------------------------------------------------------------------
+//
+// * ==========================================================================
+
+#region Références
+
+<#
+for(int i=0; i < references.Length; i++)
+	WriteLine( string.Format("using {0};", references[ i ] ) );
+#>
+
+#endregion 
+ 
+namespace <#= NameSpace #>
+{
+	/// <summary>
+	///	<#= Description #>.
+	///	</summary>	
+	public <#= Partielle #>class <#= Classe #>  
+	{ <# 
+
+	PushIndent("\t\t");
+
+	for(int i = 0; i < regions.Length; i++)
+	{
+		WriteLine( "\n\t\t#region " + regions[i] + "\n\n\t\t#endregion" );
+    }
+	
+	PopIndent(); 
+
+#>         
+        #region Initialisation, finalisation
+	
+        #region Constructeurs
+		
+		/// <summary>
+		///	Initialise une nouvelle instance de la classe <see cref="<#= Classe #>"/>.	
+		/// </summary>
+		public <#= Classe #>() 
+		{
+			 // TODO: Constructeur de la classe <#= Classe #>
+		}
+		
+		/// <summary>
+        /// Retourne une valeur <see cref="System.String"/> représentant cette instance.
+        /// </summary>
+        /// <returns>
+        /// Valeur <see cref="System.String"/> représentant cette instance.
+        /// </returns> 
+        public override string ToString()
+        {
+            return "<#= Classe #>";
+        }
+        
+		#endregion
+		
+		#endregion		
+	}
+}
